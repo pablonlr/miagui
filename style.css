@@ -1,0 +1,43 @@
+body{
+    font: normal 15px Arial;
+    text-align: center;
+}
+
+#itens_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.item-card {
+    border: 1px solid rgb(39, 39, 134);
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    justify-content: start;
+    align-items: center;
+    width: 18%;
+    min-width: 200px;
+    border-radius: 10px;
+    gap: 1px;
+} 
+
+
+
+
+.title {
+    text-align: center;
+}
+
+.description {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    white-space: pre;
+    text-align: center;
+    word-wrap: break-word;
+    white-space: normal;
+    margin-top: -10px;
+}
